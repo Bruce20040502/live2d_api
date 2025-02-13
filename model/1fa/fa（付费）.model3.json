@@ -1,0 +1,28 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "fa（付费）.moc3",
+		"Textures": [
+			"fa（付费）.8192/texture_00.png",
+			"fa（付费）.8192/texture_01.png",
+			"fa（付费）.8192/texture_02.png"
+		],
+		"Physics": "fa（付费）.physics3.json",
+		"DisplayInfo": "fa（付费）.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}
